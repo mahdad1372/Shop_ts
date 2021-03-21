@@ -36,3 +36,473 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: Berlin;
+  src: url(./fonts/BRLNSR.TTF);
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(./fonts/BRLNSB.TTF);
+}
+
+@font-face {
+  font-family: Calibri;
+  src: url(./fonts/calibri.ttf);
+}
+
+.navbar {
+  font-family: Berlin;
+}
+
+/* .navbar a {
+  
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  text-align: right;
+  cursor: default;
+}
+
+.navbar a:hover {
+  color: #f39c12;
+} */
+
+.text15 {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  text-align: right;
+  cursor: default;
+}
+
+.text15:hover {
+  color: #f39c12;
+
+  text-decoration: none;
+}
+
+.text-style {
+  margin-right: 235px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .text-style {
+    margin-right: 0px;
+  }
+}
+
+.carosel {
+  font-family: berlin;
+  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: 5px;
+}
+
+.carosel-caption {
+  margin-bottom: 265px;
+  background-color: black;
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 982px) {
+  .carosel-caption {
+    margin-bottom: 65px;
+  }
+}
+
+@media only screen and (max-width: 666px) {
+  .carosel-caption {
+    margin-bottom: 0px;
+  }
+  .carosel {
+    font-size: 20px;
+  }
+}
+
+.img-size1 {
+  width: 300px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+  background-color: #cacfd2;
+}
+
+.img-size2 {
+  width: 300px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+  background-color: #cacfd2;
+  /* filter: brightness(100%);
+  transition: 0.3s; */
+}
+
+/* .img-size2:hover{
+
+  filter: brightness(50%);
+} */
+
+.button-style1 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 200px;
+
+  background-color: gold;
+  font-size: 30px;
+  width: 145px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.button-style1:hover {
+  display: block;
+}
+.title {
+  font-family: Berlin;
+}
+
+.box-style {
+  border: black solid;
+}
+
+.box-style2 {
+  background-color: #5499c7;
+  border: solid 1px;
+  margin-right: 0.5px;
+  margin-left: 0.5px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: 0.3s;
+  color: white;
+  font-size: 20px;
+  width: 105px;
+  text-align: center;
+}
+
+.box-style2:hover {
+  background-color: #f92542;
+  color: white;
+}
+
+.arrivels {
+  font-family: Calibri;
+}
+
+.container2 {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  filter: brightness(100%);
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* filter: brightness(100%);
+  transition: .5s ease;  */
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  /* background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.container2:hover .overlay2 {
+  opacity: 1;
+  margin-bottom: 100px;
+}
+
+.button-style2 {
+  cursor: pointer;
+  background-color: #5499c7;
+  font-size: 20px;
+  width: 145px;
+  height: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  transition: 0.3s;
+  margin-left: 60px;
+}
+
+.button-style2:hover {
+  background-color: #f92542;
+}
+
+.text-style1 {
+  font-size: 25px;
+}
+
+.Deals {
+  font-family: Calibri;
+  background-color: #cacfd2;
+}
+
+.img-size3 {
+  width: 600px;
+
+  left: 0px;
+  top: 0px;
+}
+
+.text-style3 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.time {
+  color: #f92542;
+  background-color: white;
+  width: 125px;
+  text-align: center;
+  border-radius: 35px;
+}
+
+@media only screen and (max-width: 666px) {
+  .img-size3 {
+    width: 400px;
+
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.button-style3 {
+  cursor: pointer;
+  background-color: #5499c7;
+  font-size: 20px;
+  width: 145px;
+  height: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.button-style3:hover {
+  background-color: #f92542;
+}
+
+.footer {
+  font-family: Berlin;
+  background-color: #f0f3f4;
+}
+
+.container3 {
+  /* position: relative; */
+  width: 100%;
+  max-width: 300px;
+  /* filter: brightness(100%); */
+}
+
+.container6 {
+  background-image: url(./img/shoe11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+
+  font-family: Calibri;
+  font-weight: bold;
+}
+
+.container6 a {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.shop {
+  font-family: Calibri;
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+
+.shop h3 {
+  font-weight: 700;
+  margin-left: 25px;
+}
+
+.shop h4 {
+  margin-left: 25px;
+}
+
+.line5 {
+  background-color: black;
+  height: 2px;
+  width: 90%;
+}
+
+.container66 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container66 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container66:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container66 input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container66 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container66 .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.search-container {
+  margin-left: 15px;
+  margin-top: 35px;
+}
+
+.search-container input {
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  border-color: black;
+}
+
+.search-container button {
+  height: 45px;
+  width: 45px;
+}
+
+.shop12 {
+  cursor: default;
+}
+
+.img-size6 {
+  width: 500px;
+  max-width: 500px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+  background-color: #cacfd2;
+}
+
+.img-size7 {
+  width: 200px;
+  max-width: 200px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+  background-color: #cacfd2;
+}
+
+@media only screen and (max-width: 591px) {
+  .img-size6 {
+    width: 300px;
+    max-width: 300px;
+  }
+  .img-size7 {
+    width: 180px;
+    max-width: 180px;
+  }
+}
+
+.container5 {
+  /* position: relative; */
+  /* display: flex;
+  justify-content: center; */
+  width: 100%;
+  max-width: 500px;
+  /* filter: brightness(100%); */
+}
+.container8 {
+  /* position: relative; */
+  /* display: flex;
+  justify-content: center; */
+  width: 100%;
+  max-width: 500px;
+  padding-left: 95px;
+  /* filter: brightness(100%); */
+}
+
+@media only screen and (max-width: 500px) {
+  .container8 {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .img-size6 {
+    width: 300px;
+    max-width: 300px;
+  }
+  .img-size7 {
+    width: 130px;
+    max-width: 130px;
+  }
+}
