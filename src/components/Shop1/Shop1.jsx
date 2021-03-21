@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import "../App.css";
 
 class Shop1 extends React.Component {
   constructor() {
@@ -29,7 +28,7 @@ class Shop1 extends React.Component {
 
           <div className="line5"></div>
 
-          <label className="container66 mt-3 ml-3" onClick={this.props.Shoe}>
+          <label class="container66 mt-3 ml-3" onClick={this.props.Shoe}>
             Shoes
             <input
               onClick={() => {
@@ -45,9 +44,9 @@ class Shop1 extends React.Component {
               type="checkbox"
               checked={this.state.check1}
             />
-            <span className="checkmark"></span>
+            <span class="checkmark"></span>
           </label>
-          <label className="container66 ml-3" onClick={this.props.Bags}>
+          <label class="container66 ml-3" onClick={this.props.Bags}>
             Bags
             <input
               onClick={() => {
@@ -63,9 +62,9 @@ class Shop1 extends React.Component {
               type="checkbox"
               checked={this.state.check2}
             />
-            <span className="checkmark"></span>
+            <span class="checkmark"></span>
           </label>
-          <label className="container66 ml-3" onClick={this.props.Shirt}>
+          <label class="container66 ml-3" onClick={this.props.Shirt}>
             Tshirts
             <input
               onClick={() => {
@@ -81,9 +80,9 @@ class Shop1 extends React.Component {
               type="checkbox"
               checked={this.state.check3}
             />
-            <span className="checkmark"></span>
+            <span class="checkmark"></span>
           </label>
-          <label className="container66 ml-3" onClick={this.props.Sun}>
+          <label class="container66 ml-3" onClick={this.props.Sun}>
             Sunglasses
             <input
               onClick={() => {
@@ -99,10 +98,10 @@ class Shop1 extends React.Component {
               type="checkbox"
               checked={this.state.check4}
             />
-            <span className="checkmark"></span>
+            <span class="checkmark"></span>
           </label>
           <div className="line5"></div>
-          <div className="search-container">
+          <div class="search-container">
             <form>
               <input
                 type="text"
@@ -110,7 +109,7 @@ class Shop1 extends React.Component {
                 name="search"
               />
               <button type="submit">
-                <i className="fa fa-search"></i>
+                <i class="fa fa-search"></i>
               </button>
             </form>
           </div>
@@ -120,21 +119,7 @@ class Shop1 extends React.Component {
   }
 }
 
-const mapStateToProps = (state: {
-  img1: any;
-  title1: any;
-  img2: any;
-  title2: any;
-  img3: any;
-  title3: any;
-  img4: any;
-  title4: any;
-  img5: any;
-  title5: any;
-  img6: any;
-  title6: any;
-  name: any;
-}) => {
+const mapStateToProps = (state) => {
   return {
     img1: state.img1,
     title1: state.title1,
@@ -152,7 +137,7 @@ const mapStateToProps = (state: {
   };
 };
 
-const mapDispachToProps = (dispach: (arg0: { type: string }) => any) => {
+const mapDispachToProps = (dispach) => {
   return {
     Shoe: () => dispach({ type: "Shoe" }),
     Bags: () => dispach({ type: "Bags" }),

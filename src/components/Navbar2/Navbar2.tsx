@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import { Button, Navbar, Nav, NavDropdown, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "../App.css";
-
+import Logo from "../../img/logo12.png";
 class Navbar2 extends Component {
   render() {
     return (
       <div>
         <Navbar bg="white" expand="lg">
           <Navbar.Brand href="#home">
-            <img src={require("../img/logo12.png")} style={{ width: 92 }} />
+            <img src={Logo} style={{ width: 92 }} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

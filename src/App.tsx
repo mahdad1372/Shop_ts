@@ -1,12 +1,12 @@
 import React from "react";
 import logo from "./logo.svg";
-import Timer from "./components/Timer/Timer";
+import Route2 from "./pages/Route";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <Timer />
+      <Route2 />
     </div>
   );
 }

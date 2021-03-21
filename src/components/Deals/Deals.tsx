@@ -1,13 +1,12 @@
 import React from "react";
 import Timer from "../Timer/Timer";
-import "../App.css";
-
+import Fashion from "../../img/fashion.jpg";
 const Deals = () => {
   return (
     <div className="container-fluid Deals">
       <div className="row">
         <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
-          <img src={require("../img/fashion.jpg")} className="img-size3" />
+          <img src={Fashion} className="img-size3" />
         </div>
         <div className="col-lg-6 col-md-6 col-sm-12">
           <div className="d-flex justify-content-center mt-3">

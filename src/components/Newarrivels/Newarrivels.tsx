@@ -1,6 +1,10 @@
 import React from "react";
-import "../App.css";
-
+import Bag from "../../img/bag3.jpg";
+import Jacket from "../../img/jacket4.jpg";
+import Newshoe from "../../img/newshoe2.jpg";
+import Watch from "../../img/watch3.jpg";
+import Tshirt from "../../img/tshirt3.jpg";
+import Jacket2 from "../../img/jacket2.jpg";
 const Newarrivels = () => {
   return (
     <div className="mt-3 mb-3 arrivels">
@@ -20,7 +24,7 @@ const Newarrivels = () => {
             <div className="container2 text-center">
               <img
                 style={{ width: 300 }}
-                src={require("../img/bag3.jpg")}
+                src={Bag}
                 alt="Avatar"
                 className="image2"
               />
@@ -37,7 +41,7 @@ const Newarrivels = () => {
             <div className="container2 text-center">
               <img
                 style={{ width: 300 }}
-                src={require("../img/jacket4.jpg")}
+                src={Jacket}
                 alt="Avatar"
                 className="image2"
               />
@@ -54,7 +58,7 @@ const Newarrivels = () => {
             <div className="container2 text-center">
               <img
                 style={{ width: 300 }}
-                src={require("../img/newshoe2.jpg")}
+                src={Newshoe}
                 alt="Avatar"
                 className="image2"
               />
@@ -76,7 +80,7 @@ const Newarrivels = () => {
             <div className="container2 text-center">
               <img
                 style={{ width: 300 }}
-                src={require("../img/watch3.jpg")}
+                src={Watch}
                 alt="Avatar"
                 className="image2"
               />
@@ -93,7 +97,7 @@ const Newarrivels = () => {
             <div className="container2 text-center">
               <img
                 style={{ width: 300 }}
-                src={require("../img/tshirt3.jpg")}
+                src={Tshirt}
                 alt="Avatar"
                 className="image2"
               />
@@ -110,7 +114,7 @@ const Newarrivels = () => {
             <div className="container2 text-center">
               <img
                 style={{ width: 300 }}
-                src={require("../img/jacket2.jpg")}
+                src={Jacket2}
                 alt="Avatar"
                 className="image2"
               />

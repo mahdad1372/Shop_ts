@@ -4,6 +4,7 @@ interface props {
   img: string;
   title: string;
   cost: string;
+  type: string;
 }
 const Product = (props: props) => {
   let history = useHistory();
